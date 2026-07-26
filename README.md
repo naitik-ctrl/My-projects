@@ -2,9 +2,7 @@
 
 About Me
 
--   Computer Science Student
-
--   Currently studying AI and ML
+-   Computer Science Student [1st Year]
 
 -   Python
 
