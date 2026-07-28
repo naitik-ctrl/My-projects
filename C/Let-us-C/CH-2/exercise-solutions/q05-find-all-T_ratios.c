@@ -26,6 +26,10 @@ int main()
     {
         printf("\nsec(%.2lf) = %.4lf ", degree, 1.0 / cos(radians));
     }
+    else
+    {
+        printf("\nUndefined");
+    }
     if (tan(radians!=0))
     {
         printf("\ncot(%.2lf) = %.4lf", degree,  1.0 / tan(radians));
