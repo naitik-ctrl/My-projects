@@ -93,8 +93,3 @@ TOTAL PAYABLE : Rs. 1693.00
 - connection (last months units = 0). No division by zero, no surcharge
 - Units at the exact slab limits
 - Domestic customer who pays late (gets late fee not rebate)
-## Future Improvements
-
-- Change category selection to use switch-case (Chapter 7)
-- Make it work for, than one customer using arrays and loops (Chapter 5–13)
-- Make it easier to use by using functions (Chapter 8)
