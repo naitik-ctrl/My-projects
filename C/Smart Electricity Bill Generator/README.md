@@ -40,8 +40,6 @@ Conditional Statements | if, if-nested if-else |
 ## Input
 | Field | Type | Description |
 
-|---|---|---|
-
 | Consumer Number | int | Any number |
 
 Category | char | D = Domestic C = Commercial I = Industrial |
