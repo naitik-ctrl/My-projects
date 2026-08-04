@@ -27,7 +27,7 @@ int main()
             
             if (sticks_taken > 4 || sticks_taken < 1)
             {
-                printf("Invalid move! Please select between 1 and 4.\n\n");
+                printf("Invalid move! Please select between 1 and 4.\n");
             }
             else 
             {
@@ -36,9 +36,9 @@ int main()
         }
         while (sticks_taken > 4 || sticks_taken < 1);
         
-        turn = 'P'; // Player finished their action
+        turn = 'P'; // Player's turn over.
 
-        // Check if the loop should break early if player took the second-to-last stick
+        // Check if the loop should break early if user takes last stick 
         if (matchsticks <= 1) {
             break;
         }
