@@ -15,8 +15,17 @@ int main()
         }
         for (int k = 1; k < i; k++)
         {
-            printf("%d", k);
+            printf("%d", i-k);
         }
         printf("\n");
     }
 }
+/*OUTPUT:
+
+    1
+   121
+  12321
+ 1234321
+123454321
+
+*/
