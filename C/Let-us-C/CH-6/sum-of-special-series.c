@@ -4,7 +4,7 @@ int main()
 {
     int i,j,n;
     float sum = 0.0 ,fact;
-    printf("Enter a number to get sum of first number of the series: ");
+    printf("Enter 'n' to get sum of first n terms of the series: ");
     scanf("%d", &n);
     for (i=1; i<=n; i++)
     {
