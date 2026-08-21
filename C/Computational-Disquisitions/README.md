@@ -1,0 +1,1 @@
+It is collection of concise C programs exploring fundamental computational concepts, numerical transformations, and algorithmic problem-solving. These implementations serve as practical exercises in translating mathematical reasoning and logical constructs into executable programs
