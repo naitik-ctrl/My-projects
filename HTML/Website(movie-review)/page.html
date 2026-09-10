@@ -16,15 +16,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Basic&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="CSS/me.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Basic&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="CSS/home.css" />
+    <link rel="stylesheet" href="./form/form.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <div class="navbar">
-        <header>
-            <h2>MOSCOPE</h2>
-        </header>
-
+    <div class="hero">
+        <div class="frm-btn">
+            <button><a href="./form/form.html"></a></button>
+        </div>
+        <div>
+            <div class="glass-search-wrapper">
+                <div class="glass-search-container">
+                    <input type="text" class="glass-input" id="searchInput" placeholder=" ">
+                    <label for="searchInput" class="glass-label"></label>
+                    <button class="glass-button">Search</button>
+                </div>
+            </div>
+        </div>
     </div>
     <hr class="custom-line">
     <div class="sp">
@@ -33,15 +48,19 @@
             alt="Spiderman Poster">
         <div class="details">
 
-            <h4 style="opacity: 40%;">TRENDING NOW</h4>
+            <h4 class="subheadings">TRENDING NOW</h4>
             <h1>Spiderman: Brand New Day</h1>
             <br>
             <h4>2026 · 145 mins · Action</h4>
+            <span style="padding-left: 700px;"><button class="rating-btn" style="height: 25px;">☆8.0</button></span>
             <hr style="border: none; height: 4px; background-color: rgba(239, 13, 13, 0.954);">
-            <p class="review-data">It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in a
+            <p class="review-data">It's a BRAND NEW DAY for Peter Parker. Fighting crime full-time as Spider-Man in
+                a
                 world that doesn't remember him - and the pressure of seeing his old friends move on without him --
-                sparks a change in Peter he may not have the power to control. But that transformation might also be the
-                only thing that can stop a shocking new threat to the city and those he loves -- a powerful villain no
+                sparks a change in Peter he may not have the power to control. But that transformation might also be
+                the
+                only thing that can stop a shocking new threat to the city and those he loves -- a powerful villain
+                no
                 one can even see.</p>
             <p>The world may have forgotten Peter Parker, but he hasn't forgotten them.</p>
 
@@ -63,50 +82,183 @@
                     <td> <a href="https://youtu.be/P3uI5sLosKU?si=fKHo4bfpZt1U9gC_"
                             style="border-radius: 500px;"><button class="buttons"> Watch
                                 Trailer</button></a></td>
-                    <td><a href="/HTML-home/index.html" style="border-radius: 500px;"><button class="buttons">Read
+                    <td><a href="./movie-info.html" style="border-radius: 500px;"><button class="buttons"
+                                style="background-color: #0e0e12; border: 1px solid rgba(239, 13, 13, 0.954);">Read
                                 More</button></a>
                     </td>
                 </tr>
             </table>
         </div>
     </div>
-    <hr>
-    <div class="movie">
-        <div>
-            <div calss="card">
-                <img class="posters" src="./media/download (5).jpg" class="LOP">
-                <hr
-                    style="border: none; height: 4px; background-color: rgba(239, 13, 13, 0.954);width: 300px; margin-left: 21">
-                <table>
-                    <tr>
-                        <td class="details-2">The personal and professional lives of six friends living in the Manhattan
-                            borough of New
-                            York City.</td>
-                    </tr>
-                </table>
-                <table cellpadding="5px">
-                    <hr style="border: none; height: 2px; background-color: rgba(104, 91, 91, 0.173);margin-left:21;width: 300px;">
-                    <tr>
-                        <td class="main-column">Creators</td>
-                        <td class="column-details">David Crane · Marta Kauffman</td>
-                    </tr>
-                    <tr>
-                        <td class="main-column">Stars</td>
-                        <td class="column-details">Jennifer Aniston  ·  Courteney Cox  ·  Lisa Kudrow</td>
-                    </tr>
-                </table>
+    <h4 class="subheadings" style="text-align: center;margin-top: 20px; ">TOP PICKS</h4>
+    <h5 style="text-align: center; opacity: 70%; font-family:'Basic'; color: #F4EFE6;margin-top: 0px;font-size: 28px;">
+        MOVIES YOU CAN'T MISS</h5>
+    <hr class="srl" style="width: 600px; margin-top: 0px;">
+    <div class="page-2">
+
+        <div class="card">
+            <img src="./media/The Terminal.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">The Terminal</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Comedy</button>
+                <button class="genre-pill">Drama</button>
             </div>
+            <button class="rating-btn">☆7.9</button>
+            <hr class="srl">
+            <span class="details-2">An Eastern European tourist unexpectedly finds himself stranded at JFK airport
+                and must take up temporary residence there.</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
         </div>
-        <div>
-            <div>
-                <img class="posters"
-                    src="./media/Life of Pi - Ang Lee's superb 3D adaptation of the great bestseller resembles no other film_ A 20th Century Fox release_.jpg">
+
+        <div class="card">
+            <img src="./media/Michael.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">Michael</h1>
+            <div class="genre-list">
+                <button class="genre-pill">History</button>
+                <button class="genre-pill">Docu-Drama</button>
             </div>
+            <button class="rating-btn">☆7.4</button>
+            <hr class="srl">
+            <span class="details-2">Chronicles Michael Jackson’s meteoric ascent from precocious Jackson Five
+                frontman
+                into a fiercely ambitious, globally dominant entertainment icon.</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
         </div>
-        <div>
-            <img class="posters" src="./media/The Terminal.jpg">
+        <div class="card">
+            <img src="https://cdn.district.in/movies-assets/images/cinema/THe-odyssey-poster-f81c2bf0-4852-11f1-ae93-11b250c87b8a.jpg"
+                class="posters">
+            <br>
+            <h1 class="movie-title">The Odyssey</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Action</button>
+                <button class="genre-pill">Adventure</button>
+            </div>
+            <button class="rating-btn">☆8.5</button>
+            <hr class="srl">
+            <span class="details-2">After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting
+                creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
+        </div>
+        <div class="card">
+            <img src="./media/The Batman - 2022.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">The Batman</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Action</button>
+                <button class="genre-pill">Crime</button>
+            </div>
+            <button class="rating-btn">☆7.8</button>
+            <hr class="srl">
+            <span class="details-2">When a sadistic serial killer begins murdering key political figures in Gotham,
+                the
+                Batman is forced to investigate the city's hidden corruption and question his family's
+                involvement..</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
+        </div>
+        <div class="card">
+            <img src="./media/Insidious.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">Insidious</h1>
+            <br>
+            <h3 style="color: white;font-family: 'Inter';margin-top: -30px;">Out of Further</h3>
+            <div class="genre-list">
+                <button class="genre-pill">Horror</button>
+                <button class="genre-pill">Mystery</button>
+            </div>
+            <button class="rating-btn">☆7.8</button>
+            <hr class="srl">
+            <span class="details-2">Gemma, a young mother raising her daughter in the house she grew up in,
+                discovers
+                she can travel into The Further, where she possesses an ability to bring what lives there back to
+                the
+                real world.</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
+        </div>
+        <div class="card">
+            <img src="./media/RegularlyBlue (@RegularlyBlue3D) on X.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">Backrooms</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Sci-Fi</button>
+                <button class="genre-pill">Thriller</button>
+            </div>
+            <button class="rating-btn">☆7.8</button>
+            <hr class="srl">
+            <span class="details-2">When a sadistic serial killer begins murdering key political figures in Gotham,
+                the
+                Batman is forced to investigate the city's hidden corruption and question his family's
+                involvement..</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More ➔</button>
+        </div>
+        <div class="card">
+            <img src="./media/Get Out.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">Get Out</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Body-Horror</button>
+                <button class="genre-pill">Mystery</button>
+            </div>
+            <button class="rating-btn">☆7.8</button>
+            <hr class="srl">
+            <span class="details-2">When a sadistic serial killer begins murdering key political figures in Gotham,
+                the
+                Batman is forced to investigate the city's hidden corruption and question his family's
+                involvement..</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More</button>
+        </div>
+        <div class="card">
+            <img src="./media/Obsession.jpg" class="posters">
+            <br>
+            <h1 class="movie-title">Obsession</h1>
+            <div class="genre-list">
+                <button class="genre-pill">Romance</button>
+                <button class="genre-pill">Horror</button>
+            </div>
+            <button class="rating-btn">☆7.8</button>
+            <hr class="srl">
+            <span class="details-2">When a sadistic serial killer begins murdering key political figures in Gotham,
+                the
+                Batman is forced to investigate the city's hidden corruption and question his family's
+                involvement..</span>
+            <hr>
+            <br>
+            <br>
+            <button class="KM-buttons">Know More</button>
         </div>
     </div>
+    <h5
+        style="text-align: center; opacity: 70%; font-family:'Basic'; color: #F4EFE6;margin-top: 60px;margin-bottom: 20px;font-size: 28px;">
+        WHAT'S YOUR MOOD</h5>
+    <hr class="srl" style="width: 600px; margin-top: 0px;">
+    <div class="page-3">
+        <div class="">
+
+        </div>
+    </div>
+
 
 </body>
 
