@@ -4,8 +4,8 @@
 float area(float *, float *, float *);
 int main()
 {
-    float a[6], b[5];
-    float angle[5];
+    float a[6], b[6];
+    float angle[6];
     float *ptr = a, *ptr1 = b, *ptr2 = angle;
     for (int i = 0; i < 5; i++)
     {
@@ -25,7 +25,7 @@ float area(float *side1, float *side2, float *theta)
 {
     float rad = *theta;
     float max_area = ((*side1 * (*side2)) * sin(rad)) / 2.0;
-    for (int i = 1; i < 5; i++)
+    for (int i = 1; i < 6; i++)
     {
         float current_rad = *(theta + i);
         float area = ((*(side1 + i)) * (*(side2 + i)) * sin(current_rad)) / 2.0;
