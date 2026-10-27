@@ -11,12 +11,9 @@ int main()
     {
         int last_dig = n%10;
         n=n/10;
-        if ((last_dig==0) || (last_dig==1))
+        if ((last_dig==1))
         {
-            if (last_dig==1)
-            {
-                sum += last_dig * base;
-            }
+            sum += last_dig * base;
         } 
         base = base * 2;
     }
